@@ -144,7 +144,7 @@ parseInt见mdn，第二参数为进制
 
 // 四则运算
 <PrimaryExpression> = <DecimalNumber> |
-"(" <LogicalExpression> ")" 
+"(" <LogicalExpression> ")"
 <MultiplicativeExpression> = <PrimaryExpression> |
 <MultiplicativeExpression> "*" <PrimaryExpression>|
 <MultiplicativeExpression> "/" <PrimaryExpression>
